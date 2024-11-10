@@ -1,32 +1,47 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #000;
+  min-height: 100vh;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.solar-system {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.planet-carousel {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
 }
 
-
-
-.App-link {
-  color: #61dafb;
+.planet-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.planet-slide img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+.planet-info {
+  text-align: left;
+  width: 100%;
+}
+
+.planet-info h2 {
+  margin-bottom: 10px;
+}
+
+.planet-info p {
+  margin: 5px 0;
 }
 
 /* Do not touch me */

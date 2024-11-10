@@ -4,6 +4,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
+import SolarSystem from "./components/SolarSystem";
 
 function App() {
   {
@@ -26,7 +27,7 @@ function App() {
   return (
     <div className="App">
       {init && <Particles options={particlesOptions} />}
-      <h1>Build me</h1>
+      <SolarSystem />
     </div>
   );
 }
