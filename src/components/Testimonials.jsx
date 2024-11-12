@@ -1,3 +1,5 @@
+import { PiArticleLight } from "react-icons/pi";
+
 export default function Testimonials() {
 	return (
 		<section className=" text-white">
@@ -18,22 +20,7 @@ export default function Testimonials() {
 					<a
 						className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-white hover:shadow-zinc-600"
 						href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="size-10 text-[#004887]"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor">
-							<path d="M12 14l9-5-9-5-9 5 9 5z" />
-							<path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-							/>
-						</svg>
-
+						<PiArticleLight className="size-10 text-[#004887]" />
 						<h2 className="mt-4 text-xl font-bold text-white">
 							A Journey Around Our Sun
 						</h2>
@@ -52,22 +39,7 @@ export default function Testimonials() {
 					<a
 						className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-white hover:shadow-zinc-600"
 						href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="size-10 text-[#004887]"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor">
-							<path d="M12 14l9-5-9-5-9 5 9 5z" />
-							<path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-							/>
-						</svg>
-
+						<PiArticleLight className="size-10 text-[#004887]" />
 						<h2 className="mt-4 text-xl font-bold text-white">
 							Mysteries of the Solar System
 						</h2>
@@ -85,22 +57,7 @@ export default function Testimonials() {
 					<a
 						className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-white hover:shadow-zinc-600"
 						href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="size-10 text-[#004887]"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor">
-							<path d="M12 14l9-5-9-5-9 5 9 5z" />
-							<path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-							/>
-						</svg>
-
+						<PiArticleLight className="size-10 text-[#004887]" />
 						<h2 className="mt-4 text-xl font-bold text-white">
 							From Mercury to Neptune
 						</h2>
@@ -117,23 +74,9 @@ export default function Testimonials() {
 					</a>
 
 					<a
-						className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-white hover:shadow-zinc-600"
+						className="block rounded-xl border  border-gray-800 p-8 shadow-xl transition  hover:border-white hover:shadow-zinc-600"
 						href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="size-10 text-[#004887]"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor">
-							<path d="M12 14l9-5-9-5-9 5 9 5z" />
-							<path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-							/>
-						</svg>
+						<PiArticleLight className="size-10 text-[#004887]" />
 
 						<h2 className="mt-4 text-xl font-bold text-white">
 							Planetary Adventures
@@ -152,22 +95,7 @@ export default function Testimonials() {
 					<a
 						className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-white hover:shadow-zinc-600"
 						href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="size-10 text-[#004887]"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor">
-							<path d="M12 14l9-5-9-5-9 5 9 5z" />
-							<path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-							/>
-						</svg>
-
+						<PiArticleLight className="size-10 text-[#004887]" />
 						<h2 className="mt-4 text-xl font-bold text-white">
 							The Sun and Its Planetary Family
 						</h2>
@@ -185,22 +113,7 @@ export default function Testimonials() {
 					<a
 						className="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:border-white hover:shadow-zinc-600"
 						href="#">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							className="size-10 text-[#004887]"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor">
-							<path d="M12 14l9-5-9-5-9 5 9 5z" />
-							<path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-							<path
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-							/>
-						</svg>
-
+						<PiArticleLight className="size-10 text-[#004887]" />
 						<h2 className="mt-4 text-xl font-bold text-white">
 							The Planets Orbiting the Sun
 						</h2>

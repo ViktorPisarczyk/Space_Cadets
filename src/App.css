@@ -1,8 +1,4 @@
 body {
-  /* height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column; */
   align-items: center;
   color: white;
   font-size: 14px;
@@ -21,5 +17,3 @@ body {
   top: 0;
   z-index: -1;
 }
-
-
