@@ -8,9 +8,9 @@ export default function Test() {
 						<span>with Us</span>
 					</h2>
 					<p className="max-w-lg text-white/90 md:mt-6 md:block md:text-lg md:leading-relaxed">
-						Lorem ipsum dolor, sit amet consectetur adipisicing
-						elit. Inventore officia corporis quasi doloribus iure
-						architecto quae voluptatum beatae excepturi dolores.
+						Learning the planets in our solar system helps us
+						understand Earth&apos;s place in the universe and the wonders
+						of space exploration.
 					</p>
 					<div className="mt-8 flex flex-wrap gap-4 text-center">
 						<a
