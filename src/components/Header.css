@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  overflow-x: hidden;
+  list-style: none;
+  border-color: white;
+  box-shadow: 0 0 10px white;
+}
+
+.logo {
+  height: 50px;
+}
+
+.planet-links {
+  height: 25px;
+  border-radius: 50px;
+}
+
+.header-links {
+  display: flex;
+  margin-right: 30px;
+  gap: 5vw;
+}
+
+.header-links img:hover {
+  border-color: white;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
