@@ -5,7 +5,6 @@ import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
 import Hero from "./components/Hero";
-import Test from "./components/Test";
 
 function App() {
 	{
@@ -28,8 +27,7 @@ function App() {
 	return (
 		<div className="App">
 			{init && <Particles options={particlesOptions} />}
-			{/* <Hero /> */}
-			<Test />
+			<Hero />
 		</div>
 	);
 }
