@@ -5,6 +5,7 @@ import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
 import Hero from "./components/Hero";
+import Testimonials from "./components/Testimonials";
 
 function App() {
 	{
@@ -25,9 +26,10 @@ function App() {
 	}, []);
 
 	return (
-		<div className="App">
+		<div className="flex flex-col w-full justify-center">
 			{init && <Particles options={particlesOptions} />}
 			<Hero />
+			<Testimonials />
 		</div>
 	);
 }
