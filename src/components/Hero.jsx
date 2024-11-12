@@ -1,13 +1,14 @@
 export default function Hero() {
   return (
     <section
-      className="relative  bg-cover bg-no-repeat w-full"
+      className="relative w-full"
       style={{
-        background: `url("./src/assets/earth4k.jpg")`,
+        background: `url("./src/assets/Earth.png")`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        backgroundPosition: "bottom",
-        zIndex: -1,
+        backgroundPositionX: "center",
+        backgroundPositionY: "300px",
+        zIndex: 1,
       }}
     >
       <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
@@ -19,10 +20,7 @@ export default function Hero() {
             Explore the Planets and Find Your{" "}
             <strong className="block font-extrabold"> Next Adventure</strong>
           </h1>
-          <p className="mt-4 max-w-lg text-white text-start sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
-          </p>
+          <p className="mt-4 max-w-lg text-white text-start sm:text-xl/relaxed"></p>
           <div className="mt-8 flex flex-wrap gap-4 text-center">
             <a
               className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-white focus:outline-none focus:ring active:text-indigo-500"
