@@ -3,14 +3,14 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Header_2.css";
 import Logo from "../img/Logo.png";
-import Mercury from "../img/Mercury.png";
-import Venus from "../img/Venus.png";
-import Earth from "../img/Earth.png";
-import Mars from "../img/Mars.png";
-import Jupiter from "../img/Jupiter.png";
-import Saturn from "../img/Saturn.png";
-import Uranus from "../img/Uranus.png";
-import Neptune from "../img/Neptune.png";
+import Mercury from "../img/Mercury-min.png";
+import Venus from "../img/Venus-min.png";
+import Earth from "../img/Earth-min.png";
+import Mars from "../img/Mars-min.png";
+import Jupiter from "../img/Jupiter-min.png";
+import Saturn from "../img/Saturn-min.png";
+import Uranus from "../img/Uranus-min.png";
+import Neptune from "../img/Neptune-min.png";
 
 function Header_2() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
