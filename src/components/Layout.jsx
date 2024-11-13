@@ -7,7 +7,7 @@ export default function Layout() {
 	return (
 		<React.Fragment>
 			<Header />
-			<main className="w-screen">
+			<main className="">
 				<Outlet />
 			</main>
 			<Footer />
