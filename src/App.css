@@ -1,4 +1,3 @@
-
 body {
   align-items: center;
   color: white;
@@ -134,17 +133,8 @@ body {
   margin: 0 5px;
 }
 
-.arrow {
-  font-size: 24px;
-  margin: 0 5px;
-}
 
 /* Planet Details Page Styles */
-.planet-details {
-  /* padding: 20px; */
-  width: 100%;
-}
-
 .planet-details-content {
   display: flex;
   flex-direction: row;

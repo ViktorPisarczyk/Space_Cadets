@@ -45,8 +45,8 @@ const team = [
 ];
 export default function Team() {
 	return (
-		<div className="flex flex-col justify-center w-full mx-auto my-auto h-screen">
-			<div className="intro">
+		<div className="flex flex-col justify-center w-full mx-auto my-52 h-full">
+			<div className="flex flex-col mx-auto intro w-3/4">
 				<h1>
 					Meet the <b>TEAM</b>
 				</h1>
@@ -61,7 +61,7 @@ export default function Team() {
 					boldly go where few have ventured before!
 				</p>
 			</div>
-			<div className="card-section">
+			<div className="card-section flex mx-auto w-2/3">
 				{team.map((x, i) => (
 					<Card
 						person={x}
