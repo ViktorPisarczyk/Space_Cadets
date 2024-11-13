@@ -7,7 +7,7 @@ export default function Layout() {
 	return (
 		<React.Fragment>
 			<Header />
-			<main className="flex flex-col align-center w-full justify-center">
+			<main className="w-screen">
 				<Outlet />
 			</main>
 			<Footer />
