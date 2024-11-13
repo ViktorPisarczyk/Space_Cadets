@@ -1,11 +1,13 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
+import PlanetDetails from "./components/PlanetDetails";
+import PlanetHome from "./components/planetHome";
+
 import Header from "./components/Header";
-import { Route, Routes } from "react-router-dom";
 import Placeholder from "./components/Placeholder";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -34,16 +36,8 @@ function App() {
       <Header />
       <div className="flex flex-col w-full justify-center h-screen">
         <Routes>
-          <Route path="/home" element={<Placeholder name="Home" />} />
-          <Route path="/mercury" element={<Placeholder name="Mercury" />} />
-          <Route path="/venus" element={<Placeholder name="Venus" />} />
-          <Route path="/earth" element={<Placeholder name="Earth" />} />
-          <Route path="/mars" element={<Placeholder name="Mars" />} />
-          <Route path="/jupiter" element={<Placeholder name="Jupiter" />} />
-          <Route path="/saturn" element={<Placeholder name="Saturn" />} />
-          <Route path="/uranus" element={<Placeholder name="Uranus" />} />
-          <Route path="/neptune" element={<Placeholder name="Neptune" />} />
-          <Route path="/team" element={<Placeholder name="Team" />} />
+          <Route path="/" element={<PlanetHome />} />
+          <Route path="/planet/:name" element={<PlanetDetails />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

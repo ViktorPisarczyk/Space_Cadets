@@ -14,9 +14,10 @@ body {
   align-items: center;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  width: 100%;
+  position: absolute;
   top: 0;
+  right: 0;
+  left: 0;
   z-index: 1000;
   border-color: white;
   box-shadow: 0 0 7.5px white;
