@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {
 	planetImages,
@@ -32,7 +32,11 @@ function PlanetHome() {
 	};
 
 	if (planets.length === 0) {
-		return <div className="h-screen">Loading...</div>;
+		return (
+			<div className="planet-details-content h-screen flex justify-center align-middle">
+				<h1 className="text-4xl m-auto"> Loading...</h1>;
+			</div>
+		);
 	}
 
 	const selectedPlanet = planets[selectedPlanetIndex];
