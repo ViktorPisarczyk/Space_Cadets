@@ -5,6 +5,7 @@ import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
 
+
 function App() {
   {
     /*Do not alter this code*/
@@ -27,6 +28,7 @@ function App() {
     <div className="App">
       {init && <Particles options={particlesOptions} />}
       <h1>Build me</h1>
+     
     </div>
   );
 }
