@@ -5,6 +5,7 @@ import { loadFull } from "tsparticles";
 import "./App.css";
 import particlesOptions from "./particles.json";
 import Button from "./component/Button";
+import Team from "./component/Team";
 
 function App() {
   {
@@ -27,10 +28,7 @@ function App() {
   return (
     <div className="App">
       {init && <Particles options={particlesOptions} />}
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-      <Button/>
+    <Team/>
 
     </div>
   );
