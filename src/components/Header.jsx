@@ -49,7 +49,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/home">
+        <Link to="/">
           <img className="logo" src={Logo} alt="Logo" />
         </Link>
       </div>
@@ -57,7 +57,7 @@ function Header() {
         ☰
       </button>
       <nav className={`navbar ${menuOpen ? "open" : ""}`}>
-        <Link to="/home" className="nav-link">
+        <Link to="/" className="nav-link">
           Home
         </Link>
         <div className="dropdown" ref={dropdownRef}>
@@ -67,35 +67,35 @@ function Header() {
           </button>
           {dropdownOpen && (
             <div className="dropdown-menu">
-              <Link to="/planet/mercury" className="dropdown-item">
+              <Link to="/planets/mercury" className="dropdown-item">
                 Mercury
                 <img className="planet-img" src={Mercury} alt="Mercury" />
               </Link>
-              <Link to="/planet/venus" className="dropdown-item">
+              <Link to="planets/venus" className="dropdown-item">
                 Venus
                 <img className="planet-img" src={Venus} alt="Venus" />
               </Link>
-              <Link to="/planet/earth" className="dropdown-item">
+              <Link to="planets/earth" className="dropdown-item">
                 Earth
                 <img className="planet-img" src={Earth} alt="Earth" />
               </Link>
-              <Link to="/planet/mars" className="dropdown-item">
+              <Link to="planets/mars" className="dropdown-item">
                 Mars
                 <img className="planet-img" src={Mars} alt="Mars" />
               </Link>
-              <Link to="/planet/jupiter" className="dropdown-item">
+              <Link to="planets/jupiter" className="dropdown-item">
                 Jupiter
                 <img className="planet-img" src={Jupiter} alt="Jupiter" />
               </Link>
-              <Link to="/planet/saturn" className="dropdown-item">
+              <Link to="planets/saturn" className="dropdown-item">
                 Saturn
                 <img className="planet-img" src={Saturn} alt="Saturn" />
               </Link>
-              <Link to="/planet/uranus" className="dropdown-item">
+              <Link to="planets/uranus" className="dropdown-item">
                 Uranus
                 <img className="planet-img" src={Uranus} alt="Uranus" />
               </Link>
-              <Link to="/planet/neptune" className="dropdown-item">
+              <Link to="planets/neptune" className="dropdown-item">
                 Neptune
                 <img className="planet-img" src={Neptune} alt="Neptune" />
               </Link>
