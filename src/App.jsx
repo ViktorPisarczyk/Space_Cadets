@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Layout from "./components/Layout";
 import PlanetHome from "./components/planetHome";
 import PlanetDetails from "./components/PlanetDetails";
+import Team from "./components/Team";
 
 function App() {
 	{
@@ -43,6 +44,10 @@ function App() {
 					<Route
 						path="/planets"
 						element={<PlanetHome />}
+					/>
+					<Route
+						path="/team"
+						element={<Team />}
 					/>
 					<Route
 						path="/planets/:name"

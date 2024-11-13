@@ -2,7 +2,7 @@ import { PiArticleLight } from "react-icons/pi";
 
 export default function Testimonials() {
 	return (
-		<section className=" text-white">
+
 			<div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 font-bold">
 				<div className="mx-auto max-w-lg text-center">
 					<h2 className="text-3xl font-bold sm:text-4xl">
@@ -141,6 +141,5 @@ export default function Testimonials() {
 					</a>
 				</div>
 			</div>
-		</section>
 	);
 }
