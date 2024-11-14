@@ -7,8 +7,7 @@
 }
 
 .intro {
-	margin-left: 50px;
-	margin-right: 50px;
+	margin: 0 auto;
 	width: 100%;
 }
 
@@ -25,7 +24,7 @@
 	/* background-color: #00001e75; */
 }
 
-.paragraph > h3 {
+.paragraph>h3 {
 	text-align: center;
 	padding: 10px;
 	font-size: 30px;
@@ -59,38 +58,39 @@ h1 {
 	text-align: center;
 }
 
-.tech > img {
+.tech>img {
 	width: 50px;
 	display: inline-block;
 	margin: 5px;
 }
 
-.big-div{
+.big-div {
 	margin-top: 160px;
 	margin-bottom: 160px;
 }
 
-@media screen and (max-width: 900px)  {
-	
-	.card{
+@media screen and (max-width: 900px) {
+
+	.card {
 		flex-direction: row;
 		width: 100%;
 		font-size: 1rem;
-		margin:0px;
+		margin: 0px;
 		margin-bottom: 15px;
 		padding: 10px
 	}
 
-	
 
-	.card-section{
+
+	.card-section {
 		width: 100%;
 	}
-	.picture>img{
+
+	.picture>img {
 		width: 300px;
 	}
 
-	h1{
+	h1 {
 		font-size: 35px;
 	}
 
@@ -98,32 +98,35 @@ h1 {
 		font-size: 20px;
 	}
 
-	.intro{
-		margin:10px;
-        width:100%
+	.intro {
+		margin: 10px;
+		/* width: 100%; */
+		margin: 0 auto
 	}
-	.big-div{
+
+	.big-div {
 		margin-top: 150px;
 		margin-bottom: 100px;
 	}
 }
 
-@media (min-width:900px) and (max-width:1550px ) {
-	
-	
+@media (min-width:900px) and (max-width:1550px) {
+
+
 	.big-div {
 		margin-top: 150px;
 		margin-bottom: 100px;
 	}
 
-	.card-section{
+	.card-section {
 		width: 100%;
 	}
-	.picture>img{
+
+	.picture>img {
 		width: 300px;
 	}
 
-	h1{
+	h1 {
 		font-size: 35px;
 	}
 
@@ -131,12 +134,12 @@ h1 {
 		font-size: 20px;
 	}
 
-	.intro{
-		margin:10px;
-        width:100%
+	.intro {
+		margin: 0 auto;
+		width: 100%
 	}
 
-	.card{
+	.card {
 		width: 300px;
 	}
 }

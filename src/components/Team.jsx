@@ -45,8 +45,8 @@ const team = [
 ];
 export default function Team() {
 	return (
-		<div className="big-div flex flex-col justify-center w-full mx-auto my-52 h-full">
-			<div className="flex flex-col mx-auto intro w-3/4">
+		<div className="big-div flex flex-col justify-center  my-52 h-full">
+			<div className="flex flex-col intro">
 				<h1>
 					Meet the <b>TEAM</b>
 				</h1>
