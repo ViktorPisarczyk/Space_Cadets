@@ -22,15 +22,12 @@ function Header() {
 	const toggleDropdown = () => {
 		setDropdownOpen(!dropdownOpen);
 	};
-
 	const toggleMenu = () => {
 		setMenuOpen(!menuOpen);
 	};
-
 	useEffect(() => {
 		setDropdownOpen(false);
 		setMenuOpen(false);
-
 		const handleClickOutside = (event) => {
 			if (
 				dropdownRef.current &&
@@ -41,7 +38,6 @@ function Header() {
 			}
 		};
 	}, [location]);
-
 	return (
 		<header className="header">
 			<div className="logo">

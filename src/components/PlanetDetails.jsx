@@ -53,8 +53,8 @@ function PlanetDetails() {
 	// 	planets[(selectedPlanetIndex - 1 + planets.length) % planets.length];
 
 	return (
-		<div className="planet-details">
-			<div className="planet-details-content h-screen flex justify-center align-middle">
+		<div className="">
+			<div className="planet-details-content justify-center align-middle">
 				<div className="planet-details-left">
 					<img
 						src={planetImages[planetData.englishName][0].src}
