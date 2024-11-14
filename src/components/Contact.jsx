@@ -2,32 +2,43 @@ import { useState } from "react";
 import "./Contact.css";
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    interest: "",
-  });
+	const [formData, setFormData] = useState({
+		name: "",
+		email: "",
+		interest: "",
+	});
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
+	const handleChange = (e) => {
+		const { name, value } = e.target;
+		setFormData((prevData) => ({
+			...prevData,
+			[name]: value,
+		}));
+	};
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert("Thank you for writing us a message!");
-    setFormData({
-      name: "",
-      email: "",
-      interest: "",
-    });
-  };
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		alert("Thank you for writing us a message!");
+		setFormData({
+			name: "",
+			email: "",
+			interest: "",
+		});
+	};
 
-  return (
-		<div className="h-screen">
+	return (
+		<div className="h-screen mx-auto my-48">
+			<div className="intro">
+				<h1>Contact Mission Control</h1>
+
+				<p>
+					Have a question, or ready to embark on your journey with us?
+					Send your message directly to our crew, and we’ll get back
+					to you at warp speed. Whether you're exploring new
+					possibilities or need guidance, we're here to help your
+					ideas reach for the stars!
+				</p>
+			</div>
 			<form
 				className="signup-form"
 				onSubmit={handleSubmit}>
@@ -97,7 +108,7 @@ function Contact() {
 				</div>
 			</form>
 		</div>
-  );
+	);
 }
 
 export default Contact;
