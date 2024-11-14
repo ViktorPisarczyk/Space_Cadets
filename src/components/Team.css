@@ -7,7 +7,9 @@
 }
 
 .intro {
-	/* color: #fffcef; */
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 100%;
 }
 
 .card {
@@ -41,7 +43,7 @@ p {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 55px;
 	text-align: center;
 	padding: 10px;
 	text-shadow: 1px 1px 2px #880808c0;
@@ -61,4 +63,80 @@ h1 {
 	width: 50px;
 	display: inline-block;
 	margin: 5px;
+}
+
+.big-div{
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
+
+@media screen and (max-width: 900px)  {
+	
+	.card{
+		flex-direction: row;
+		width: 100%;
+		font-size: 1rem;
+		margin:0px;
+		margin-bottom: 15px;
+		padding: 10px
+	}
+
+	
+
+	.card-section{
+		width: 100%;
+	}
+	.picture>img{
+		width: 300px;
+	}
+
+	h1{
+		font-size: 35px;
+	}
+
+	#para {
+		font-size: 20px;
+	}
+
+	.intro{
+		margin:10px;
+        width:100%
+	}
+	.big-div{
+		margin-top: 150px;
+		margin-bottom: 100px;
+	}
+}
+
+@media (min-width:900px) and (max-width:1550px ) {
+	
+	
+	.big-div {
+		margin-top: 150px;
+		margin-bottom: 100px;
+	}
+
+	.card-section{
+		width: 100%;
+	}
+	.picture>img{
+		width: 300px;
+	}
+
+	h1{
+		font-size: 35px;
+	}
+
+	#para {
+		font-size: 20px;
+	}
+
+	.intro{
+		margin:10px;
+        width:100%
+	}
+
+	.card{
+		width: 300px;
+	}
 }
