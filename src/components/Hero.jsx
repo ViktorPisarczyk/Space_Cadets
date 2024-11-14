@@ -16,7 +16,8 @@ export default function Hero() {
 						architecto quae voluptatum beatae excepturi dolores.
 					</p>
 					<div className="mt-8 flex flex-wrap gap-4 text-center">
-						<Link to={"/planets"}
+						<Link
+							to={"/planets"}
 							className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-white focus:outline-none focus:ring active:text-indigo-500"
 							href="#">
 							<span className="absolute -end-full transition-all group-hover:end-4">

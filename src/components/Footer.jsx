@@ -1,17 +1,19 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 	return (
-		<footer className="">
+		<footer className="relative">
 			<div className="mx-auto max-w-3xl px-4 py-0 sm:px-6 lg:px-8 lg:p-1">
 				<ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
 					<li>
-						<a
+						<Link
+							to={"/team"}
 							className="text-white-700 transition hover:text-gray-700/75"
 							href="#">
 							{" "}
 							Team{" "}
-						</a>
+						</Link>
 					</li>
 					<li>
 						<a
@@ -38,12 +40,13 @@ export default function Footer() {
 						</a>
 					</li>
 					<li>
-						<a
+						<Link
+							to={"/articles"}
 							className="text-white-700 transition hover:text-gray-700/75"
 							href="#">
 							{" "}
 							Blog{" "}
-						</a>
+						</Link>
 					</li>
 					<div className="mx-auto max-w-md">
 						<span className="block text-center text-l font-normal text-white-900 sm:text-1l">

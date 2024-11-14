@@ -4,6 +4,7 @@ body {
   font-family: "Kode Mono", monospace;
 }
 
+
 .planet-home {
   display: flex;
   justify-content: center;
@@ -157,6 +158,10 @@ body {
   margin-bottom: 20px;
 }
 
+.planet-details {
+  height: 100vh;
+}
+
 
 .planet-details-info p {
   margin: 5px 0;
@@ -277,7 +282,7 @@ strong {
 footer {
   background: rgba(253, 251, 251, 0.11);
   color: white;
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
