@@ -34,4 +34,4 @@ Ready to launch? Let’s explore the universe together - one planet at a time!
 
 ## Tech Stack
 
-**Client:** HTML, CSS, TailwindCSS, Javascript, React
+![Static Badge](https://img.shields.io/badge/HTML-black?style=flat&logo=html5)
