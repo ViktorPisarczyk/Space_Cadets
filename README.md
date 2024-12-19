@@ -29,8 +29,7 @@ Ready to launch? Let’s explore the universe together - one planet at a time!
 
 - [@Darlyyolande](https://github.com/Darlyyolande)
 
-<img src="https://github.com/ViktorPisarczyk.png" width="60px" style="border-radius: 50%;" />
- [@ViktorPisarczyk](https://github.com/ViktorPisarczyk)
+<img src="https://github.com/ViktorPisarczyk.png" width="40px" style="border-radius: 50%;" /> [@ViktorPisarczyk](https://github.com/ViktorPisarczyk)
 
 
 ## Tech Stack
