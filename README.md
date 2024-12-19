@@ -15,9 +15,9 @@ Ready to launch? Let’s explore the universe together - one planet at a time!
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/3cLvn2t/Screenshot-from-2024-12-19-14-11-44.png)
+![App Screenshot](https://i.ibb.co/HqCdKYR/Screenshot-from-2024-12-19-14-48-30.png)
 
-![App Screenshot](https://i.ibb.co/Pmg5h13/Screenshot-from-2024-12-19-14-18-28.png)
+![App Screenshot](https://i.ibb.co/8ctrrSs/Screenshot-from-2024-12-19-14-47-32.png)
 
 ## Contributors
 
