@@ -1,1 +1,1 @@
-[<img src="https://github.com/ViktorPisarczyk.png" width="60px;"/><br /><sub><ahref="https://github.com/ViktorPisarczyk">ViktorPisarczyk</a></sub>]
+<img src="https://github.com/ViktorPisarczyk.png" width="60px;"/>
