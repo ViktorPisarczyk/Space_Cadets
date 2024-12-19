@@ -35,3 +35,11 @@ Ready to launch? Let’s explore the universe together - one planet at a time!
 ## Tech Stack
 
 ![Static Badge](https://img.shields.io/badge/HTML-black?style=flat&logo=html5)
+
+![Static Badge](https://img.shields.io/badge/CSS-black?style=flat&logo=css3)
+
+![Static Badge](https://img.shields.io/badge/TailwindCSS-black?style=flat&logo=tailwindcss)
+
+![Static Badge](https://img.shields.io/badge/Javascript-black?style=flat&logo=javascript)
+
+![Static Badge](https://img.shields.io/badge/React-black?style=flat&logo=react)
